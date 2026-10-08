@@ -1,0 +1,79 @@
+:root {
+
+    /* =========================================
+       COLORS
+    ========================================== */
+
+    --espresso: #2C211B;
+
+    --espresso-light: #3D2D24;
+
+    --brown: #614638;
+
+    --mocha: #80604D;
+
+    --terracotta: #A86F50;
+
+    --caramel: #C39876;
+
+    --cream: #F5EEE6;
+
+    --cream-light: #FBF8F4;
+
+    --sand: #E6D8CB;
+
+    --text: #332820;
+
+    --text-muted: #806F63;
+
+    --border: #D9CBBE;
+
+
+    /* =========================================
+       TYPOGRAPHY
+    ========================================== */
+
+    --font-body:
+        "DM Sans",
+        sans-serif;
+
+    --font-heading:
+        "Space Grotesk",
+        sans-serif;
+
+    --font-serif:
+        "Playfair Display",
+        serif;
+
+
+    /* =========================================
+       LAYOUT
+    ========================================== */
+
+    --container: 1240px;
+
+    --section-space: 140px;
+
+
+    /* =========================================
+       EFFECTS
+    ========================================== */
+
+    --radius-sm: 8px;
+
+    --radius-md: 18px;
+
+    --radius-lg: 28px;
+
+    --shadow:
+        0 30px 80px rgba(44, 33, 27, 0.14);
+
+    --transition:
+        0.35s cubic-bezier(
+            0.22,
+            1,
+            0.36,
+            1
+        );
+
+}
