@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
 
     <meta
@@ -12,7 +10,7 @@
 
     <meta
         name="description"
-        content="Afifah Putri Islamiyah — Software Developer and digital creator."
+        content="Afifah Putri Islamiyah — Project Management, Data, and Cybersecurity."
     >
 
     <meta
@@ -20,1338 +18,1317 @@
         content="Afifah Putri Islamiyah"
     >
 
-    <title>
-        Afifah Putri Islamiyah — Portfolio
-    </title>
+    <title>Afifah Putri Islamiyah — Personal Space</title>
 
-
-    <!-- ================================
-         GOOGLE FONTS
-    ================================= -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
+    <!-- Fonts -->
     <link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin
-    >
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet"
     >
 
-
-    <!-- ================================
-         CSS
-    ================================= -->
-
-    <link
-        rel="stylesheet"
-        href="css/reset.css"
-    >
-
-    <link
-        rel="stylesheet"
-        href="css/variables.css"
-    >
-
-    <link
-        rel="stylesheet"
-        href="css/style.css"
-    >
-
-    <link
-        rel="stylesheet"
-        href="css/responsive.css"
-    >
-
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
-
 
 <body>
 
+    <!-- =====================================================
+         PRELOADER
+    ====================================================== -->
 
-<!-- =====================================================
-     PAGE LOADER
-===================================================== -->
+    <div class="preloader" id="preloader">
 
-<div class="page-loader">
+        <div class="preloader-inner">
 
-    <div class="loader-inner">
+            <div class="preloader-top">
+                <span>PERSONAL PORTFOLIO</span>
+                <span>2026</span>
+            </div>
 
-        <span>API</span>
+            <div class="preloader-main">
 
-        <div class="loader-line"></div>
+                <span class="preloader-kicker">
+                    WELCOME TO
+                </span>
 
-    </div>
+                <h1>
+                    Afifah's
+                    <em>Personal Space.</em>
+                </h1>
 
-</div>
+                <div class="preloader-progress">
+                    <div class="preloader-progress-bar"></div>
+                </div>
 
-
-
-<!-- =====================================================
-     NAVIGATION
-===================================================== -->
-
-<header class="site-header">
-
-    <div class="container nav-wrapper">
-
-
-        <a
-            href="#home"
-            class="brand"
-        >
-
-            <span class="brand-mark">
-                AP
-            </span>
-
-            <span class="brand-name">
-                Afifah.
-            </span>
-
-        </a>
-
-
-        <nav class="main-nav">
-
-            <a
-                href="#home"
-                class="nav-link active"
-            >
-                Home
-            </a>
-
-            <a
-                href="#about"
-                class="nav-link"
-            >
-                About
-            </a>
-
-            <a
-                href="#experience"
-                class="nav-link"
-            >
-                Experience
-            </a>
-
-            <a
-                href="#projects"
-                class="nav-link"
-            >
-                Projects
-            </a>
-
-            <a
-                href="#contact"
-                class="nav-link"
-            >
-                Contact
-            </a>
-
-        </nav>
-
-
-        <a
-            href="#contact"
-            class="nav-contact"
-        >
-            Let's Talk
-            <span>↗</span>
-        </a>
-
-
-        <button
-            class="mobile-menu-button"
-            aria-label="Open menu"
-        >
-
-            <span></span>
-            <span></span>
-            <span></span>
-
-        </button>
-
-    </div>
-
-</header>
-
-
-
-<!-- =====================================================
-     MAIN
-===================================================== -->
-
-<main>
-
-
-<!-- =====================================================
-     HERO
-===================================================== -->
-
-<section
-    class="hero"
-    id="home"
->
-
-    <div class="container hero-grid">
-
-
-        <div class="hero-copy">
-
-
-            <div class="hero-kicker">
-
-                <span class="kicker-line"></span>
-
-                HELLO, I'M AFIFAH
+                <div class="preloader-status">
+                    <span>INITIALIZING EXPERIENCE</span>
+                    <strong id="loaderPercentage">0%</strong>
+                </div>
 
             </div>
 
+            <div class="preloader-bottom">
+                <span>PROJECT MANAGEMENT</span>
+                <span>DATA</span>
+                <span>CYBERSECURITY</span>
+            </div>
 
-            <h1 class="hero-title">
+        </div>
 
-                Digital
-                <em>ideas</em>
-
-                <br>
-
-                made
-                <span>real.</span>
-
-            </h1>
+    </div>
 
 
-            <p class="hero-intro">
+    <!-- =====================================================
+         NAVIGATION
+    ====================================================== -->
 
-                I design and build digital experiences
-                where thoughtful ideas meet clean,
-                functional technology.
+    <header class="navbar" id="navbar">
 
-            </p>
+        <div class="container nav-container">
 
+            <a href="#home" class="brand">
+                <span class="brand-mark">AP</span>
 
-            <div class="hero-actions">
+                <span class="brand-name">
+                    Afifah<span>.</span>
+                </span>
+            </a>
 
-                <a
-                    href="#projects"
-                    class="button button-dark"
-                >
+            <nav class="desktop-nav">
 
-                    Explore Work
-
-                    <span>↗</span>
-
+                <a href="#home" class="nav-link active">
+                    Home
                 </a>
 
-
-                <a
-                    href="#about"
-                    class="button button-outline"
-                >
-
-                    More About Me
-
+                <a href="#about" class="nav-link">
+                    About
                 </a>
 
-            </div>
-
-
-            <div class="hero-details">
-
-                <span>
-                    Based in Indonesia
-                </span>
-
-                <span class="detail-dot">
-                    •
-                </span>
-
-                <span>
-                    Software Developer
-                </span>
-
-            </div>
-
-        </div>
-
-
-
-        <!-- HERO VISUAL -->
-
-        <div class="hero-art">
-
-
-            <div class="art-background-shape"></div>
-
-
-            <div class="portrait-card">
-
-                <div class="portrait-top">
-
-                    <span>
-                        2026
-                    </span>
-
-                    <span>
-                        01 / 05
-                    </span>
-
-                </div>
-
-
-                <div class="portrait-placeholder">
-
-                    <img
-                        src="assets/images/profile.jpg"
-                        alt="Afifah Putri Islamiyah"
-                    >
-
-                </div>
-
-
-                <div class="portrait-bottom">
-
-                    <span>
-                        AFIFAH
-                    </span>
-
-                    <span>
-                        PUTRI ISLAMIYAH
-                    </span>
-
-                </div>
-
-            </div>
-
-
-            <div class="floating-note">
-
-                <span class="note-symbol">
-                    ✦
-                </span>
-
-                <span>
-                    BUILD WITH<br>
-                    PURPOSE.
-                </span>
-
-            </div>
-
-
-            <div class="round-text">
-
-                <span>
-                    CREATIVE • DIGITAL • TECHNOLOGY •
-                </span>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <div class="hero-bottom-line">
-
-        <span>
-            SCROLL TO EXPLORE
-        </span>
-
-        <span class="scroll-arrow">
-            ↓
-        </span>
-
-        <span>
-            2026
-        </span>
-
-    </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     MARQUEE
-===================================================== -->
-
-<section class="marquee">
-
-    <div class="marquee-track">
-
-        <span>
-            SOFTWARE DEVELOPMENT
-        </span>
-
-        <i>✦</i>
-
-        <span>
-            DIGITAL EXPERIENCES
-        </span>
-
-        <i>✦</i>
-
-        <span>
-            CREATIVE TECHNOLOGY
-        </span>
-
-        <i>✦</i>
-
-        <span>
-            SOFTWARE DEVELOPMENT
-        </span>
-
-        <i>✦</i>
-
-        <span>
-            DIGITAL EXPERIENCES
-        </span>
-
-        <i>✦</i>
-
-    </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     ABOUT
-===================================================== -->
-
-<section
-    class="about section"
-    id="about"
->
-
-    <div class="container">
-
-
-        <div class="section-label">
-
-            <span>
-                01
-            </span>
-
-            ABOUT ME
-
-        </div>
-
-
-        <div class="about-grid">
-
-
-            <div class="about-heading">
-
-                <h2>
-
-                    More than
-                    <em>just</em>
-                    code.
-
-                </h2>
-
-            </div>
-
-
-            <div class="about-content">
-
-                <p class="about-large">
-
-                    I'm Afifah Putri Islamiyah,
-                    a developer who believes technology
-                    should feel human.
-
-                </p>
-
-
-                <p>
-
-                    I enjoy transforming ideas into digital
-                    products that are useful, intuitive,
-                    and visually thoughtful. My interests
-                    span software development, web
-                    applications, backend systems,
-                    and creative digital experiences.
-
-                </p>
-
-
-                <p>
-
-                    I care about the details behind the
-                    interface just as much as the interface
-                    itself — from architecture and APIs
-                    to the final interaction a user sees.
-
-                </p>
-
-
-                <a
-                    href="assets/cv/Afifah-Putri-Islamiyah-CV.pdf"
-                    class="inline-link"
-                    target="_blank"
-                >
-
-                    View my CV
-
-                    <span>↗</span>
-
+                <a href="#expertise" class="nav-link">
+                    Expertise
                 </a>
 
-            </div>
+                <a href="#projects" class="nav-link">
+                    Projects
+                </a>
 
-        </div>
+                <a href="#experience" class="nav-link">
+                    Experience
+                </a>
 
+                <a href="#contact" class="nav-link">
+                    Contact
+                </a>
 
-        <div class="about-stats">
+            </nav>
 
-
-            <div class="stat">
-
-                <strong>
-                    01
-                </strong>
-
-                <span>
-                    Software<br>
-                    Development
-                </span>
-
-            </div>
-
-
-            <div class="stat">
-
-                <strong>
-                    02
-                </strong>
-
-                <span>
-                    Web &<br>
-                    Digital Products
-                </span>
-
-            </div>
-
-
-            <div class="stat">
-
-                <strong>
-                    03
-                </strong>
-
-                <span>
-                    Backend &<br>
-                    API Systems
-                </span>
-
-            </div>
-
-
-            <div class="stat">
-
-                <strong>
-                    04
-                </strong>
-
-                <span>
-                    Creative<br>
-                    Technology
-                </span>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     SKILLS
-===================================================== -->
-
-<section
-    class="skills section-dark"
-    id="skills"
->
-
-    <div class="container">
-
-
-        <div class="section-label section-label-light">
-
-            <span>
-                02
-            </span>
-
-            WHAT I DO
-
-        </div>
-
-
-        <div class="skills-intro">
-
-            <h2>
-
-                Turning
-                <em>complexity</em>
-                into clarity.
-
-            </h2>
-
-            <p>
-
-                A blend of technical thinking,
-                problem solving, and visual sensitivity.
-
-            </p>
-
-        </div>
-
-
-        <div class="skills-list">
-
-
-            <article class="skill-item">
-
-                <span class="skill-number">
-                    01
-                </span>
-
-                <div class="skill-main">
-
-                    <h3>
-                        Web Development
-                    </h3>
-
-                    <p>
-                        Responsive interfaces and web
-                        applications built with modern
-                        frontend technologies.
-                    </p>
-
-                </div>
-
-                <div class="skill-tools">
-
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>React</span>
-                    <span>Vue</span>
-
-                </div>
-
-                <span class="skill-arrow">
-                    ↗
-                </span>
-
-            </article>
-
-
-            <article class="skill-item">
-
-                <span class="skill-number">
-                    02
-                </span>
-
-                <div class="skill-main">
-
-                    <h3>
-                        Backend Development
-                    </h3>
-
-                    <p>
-                        APIs, business logic, authentication,
-                        databases, and server-side systems.
-                    </p>
-
-                </div>
-
-                <div class="skill-tools">
-
-                    <span>Laravel</span>
-                    <span>PHP</span>
-                    <span>Node.js</span>
-                    <span>REST API</span>
-
-                </div>
-
-                <span class="skill-arrow">
-                    ↗
-                </span>
-
-            </article>
-
-
-            <article class="skill-item">
-
-                <span class="skill-number">
-                    03
-                </span>
-
-                <div class="skill-main">
-
-                    <h3>
-                        Product & UI
-                    </h3>
-
-                    <p>
-                        Interfaces that balance usability,
-                        visual hierarchy, and personality.
-                    </p>
-
-                </div>
-
-                <div class="skill-tools">
-
-                    <span>UI/UX</span>
-                    <span>Figma</span>
-                    <span>Design Systems</span>
-
-                </div>
-
-                <span class="skill-arrow">
-                    ↗
-                </span>
-
-            </article>
-
-
-            <article class="skill-item">
-
-                <span class="skill-number">
-                    04
-                </span>
-
-                <div class="skill-main">
-
-                    <h3>
-                        Systems & Infrastructure
-                    </h3>
-
-                    <p>
-                        Databases, deployment, containers,
-                        servers, and application infrastructure.
-                    </p>
-
-                </div>
-
-                <div class="skill-tools">
-
-                    <span>Docker</span>
-                    <span>Linux</span>
-                    <span>MySQL</span>
-                    <span>PostgreSQL</span>
-
-                </div>
-
-                <span class="skill-arrow">
-                    ↗
-                </span>
-
-            </article>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     EXPERIENCE
-===================================================== -->
-
-<section
-    class="experience section"
-    id="experience"
->
-
-    <div class="container">
-
-
-        <div class="section-label">
-
-            <span>
-                03
-            </span>
-
-            EXPERIENCE
-
-        </div>
-
-
-        <div class="experience-header">
-
-            <h2>
-                The journey
-                <em>so far.</em>
-            </h2>
-
-            <p>
-                A selection of experiences that
-                shaped how I build and think.
-            </p>
-
-        </div>
-
-
-        <div class="experience-list">
-
-
-            <article class="experience-row">
-
-                <div class="experience-year">
-                    2025 — Present
-                </div>
-
-                <div class="experience-role">
-
-                    <h3>
-                        Software Developer
-                    </h3>
-
-                    <p>
-                        Backend & Software Engineering
-                    </p>
-
-                </div>
-
-                <div class="experience-description">
-
-                    Building backend services,
-                    APIs, databases, and software
-                    systems with a focus on reliability
-                    and maintainability.
-
-                </div>
-
-                <span class="experience-arrow">
-                    ↗
-                </span>
-
-            </article>
-
-
-            <article class="experience-row">
-
-                <div class="experience-year">
-                    2022 — Present
-                </div>
-
-                <div class="experience-role">
-
-                    <h3>
-                        Backend Developer
-                    </h3>
-
-                    <p>
-                        Independent / Project Based
-                    </p>
-
-                </div>
-
-                <div class="experience-description">
-
-                    Developing web applications,
-                    API integrations, management systems,
-                    and database-driven products.
-
-                </div>
-
-                <span class="experience-arrow">
-                    ↗
-                </span>
-
-            </article>
-
-
-            <article class="experience-row">
-
-                <div class="experience-year">
-                    2020 — 2022
-                </div>
-
-                <div class="experience-role">
-
-                    <h3>
-                        Frontend & UI/UX
-                    </h3>
-
-                    <p>
-                        Makassar Robotics
-                    </p>
-
-                </div>
-
-                <div class="experience-description">
-
-                    Designed and developed interfaces
-                    while exploring the relationship
-                    between technology and user experience.
-
-                </div>
-
-                <span class="experience-arrow">
-                    ↗
-                </span>
-
-            </article>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     PROJECTS
-===================================================== -->
-
-<section
-    class="projects section-dark"
-    id="projects"
->
-
-    <div class="container">
-
-
-        <div class="section-label section-label-light">
-
-            <span>
-                04
-            </span>
-
-            SELECTED WORK
-
-        </div>
-
-
-        <div class="projects-header">
-
-            <h2>
-
-                Things I've
-                <em>built.</em>
-
-            </h2>
-
-            <p>
-                A few projects that represent
-                my interests and approach.
-            </p>
-
-        </div>
-
-
-        <div class="project-list">
-
-
-            <!-- PROJECT 01 -->
-
-            <article class="project">
-
-                <div class="project-number">
-                    01
-                </div>
-
-
-                <div class="project-image">
-
-                    <img
-                        src="assets/images/project-1.jpg"
-                        alt="Project one"
-                    >
-
-                </div>
-
-
-                <div class="project-info">
-
-                    <div class="project-category">
-                        WEB / SOFTWARE
-                    </div>
-
-                    <h3>
-                        Digital Product
-                    </h3>
-
-                    <p>
-                        A digital product designed to
-                        solve a real-world problem through
-                        a thoughtful combination of
-                        technology and user experience.
-                    </p>
-
-                    <div class="project-tags">
-
-                        <span>
-                            Web
-                        </span>
-
-                        <span>
-                            API
-                        </span>
-
-                        <span>
-                            Database
-                        </span>
-
-                    </div>
-
-                    <a
-                        href="#"
-                        class="project-link"
-                    >
-                        View Project ↗
-                    </a>
-
-                </div>
-
-            </article>
-
-
-
-            <!-- PROJECT 02 -->
-
-            <article class="project project-reverse">
-
-                <div class="project-number">
-                    02
-                </div>
-
-
-                <div class="project-image">
-
-                    <img
-                        src="assets/images/project-2.jpg"
-                        alt="Project two"
-                    >
-
-                </div>
-
-
-                <div class="project-info">
-
-                    <div class="project-category">
-                        AI / RESEARCH
-                    </div>
-
-                    <h3>
-                        Intelligent System
-                    </h3>
-
-                    <p>
-                        An AI-driven system exploring how
-                        intelligent technology can assist
-                        people in making better decisions.
-                    </p>
-
-                    <div class="project-tags">
-
-                        <span>
-                            AI
-                        </span>
-
-                        <span>
-                            RAG
-                        </span>
-
-                        <span>
-                            FastAPI
-                        </span>
-
-                    </div>
-
-                    <a
-                        href="#"
-                        class="project-link"
-                    >
-                        View Project ↗
-                    </a>
-
-                </div>
-
-            </article>
-
-
-
-            <!-- PROJECT 03 -->
-
-            <article class="project">
-
-                <div class="project-number">
-                    03
-                </div>
-
-
-                <div class="project-image">
-
-                    <img
-                        src="assets/images/project-3.jpg"
-                        alt="Project three"
-                    >
-
-                </div>
-
-
-                <div class="project-info">
-
-                    <div class="project-category">
-                        IOT / SYSTEM
-                    </div>
-
-                    <h3>
-                        Connected System
-                    </h3>
-
-                    <p>
-                        A connected application combining
-                        hardware, software, APIs, and
-                        real-time system communication.
-                    </p>
-
-                    <div class="project-tags">
-
-                        <span>
-                            IoT
-                        </span>
-
-                        <span>
-                            Raspberry Pi
-                        </span>
-
-                        <span>
-                            Docker
-                        </span>
-
-                    </div>
-
-                    <a
-                        href="#"
-                        class="project-link"
-                    >
-                        View Project ↗
-                    </a>
-
-                </div>
-
-            </article>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     EDUCATION
-===================================================== -->
-
-<section class="education section">
-
-    <div class="container">
-
-
-        <div class="section-label">
-
-            <span>
-                05
-            </span>
-
-            EDUCATION
-
-        </div>
-
-
-        <div class="education-grid">
-
-
-            <div>
-
-                <h2>
-                    Always
-                    <em>learning.</em>
-                </h2>
-
-            </div>
-
-
-            <div class="education-card">
-
-                <div class="education-year">
-                    2023 — Present
-                </div>
-
-                <h3>
-                    D4 Informatics & Computer Engineering
-                </h3>
-
-                <p>
-                    Politeknik Negeri Ujung Pandang
-                </p>
-
-                <span>
-                    Applied Bachelor Degree
-                </span>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     CONTACT
-===================================================== -->
-
-<section
-    class="contact"
-    id="contact"
->
-
-    <div class="container contact-container">
-
-
-        <div class="section-label section-label-light">
-
-            <span>
-                06
-            </span>
-
-            CONTACT
-
-        </div>
-
-
-        <div class="contact-main">
-
-            <p class="contact-small">
-                HAVE A PROJECT IN MIND?
-            </p>
-
-
-            <h2>
-
-                Let's make
-                something
-                <em>meaningful.</em>
-
-            </h2>
-
-
-            <a
-                href="mailto:your@email.com"
-                class="contact-email"
-            >
-                your@email.com
+            <a href="#contact" class="nav-cta">
+                Let's Talk
                 <span>↗</span>
             </a>
 
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
         </div>
 
+        <!-- Mobile Navigation -->
 
-        <div class="contact-footer">
+        <div class="mobile-nav" id="mobileNav">
 
-            <div>
+            <div class="mobile-nav-inner">
 
-                <span>
-                    FIND ME
-                </span>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#expertise">Expertise</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
 
-                <div class="social-links">
+                <div class="mobile-nav-footer">
+                    <span>Afifah Putri Islamiyah</span>
+                    <span>2026</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section class="hero section" id="home">
+
+            <div class="hero-grid container">
+
+                <div class="hero-copy">
+
+                    <div class="eyebrow">
+                        <span></span>
+                        TECHNOLOGY · STRATEGY · SECURITY
+                    </div>
+
+                    <p class="hero-intro">
+                        HELLO, I'M AFIFAH
+                    </p>
+
+                    <h1 class="hero-title">
+                        I manage
+                        <em>ideas,</em><br>
+
+                        make sense of
+                        <em>data,</em><br>
+
+                        protect what
+                        <em>matters.</em>
+                    </h1>
+
+                    <p class="hero-description">
+                        I work at the intersection of project management,
+                        data, and cybersecurity — turning complex technical
+                        challenges into structured, measurable, and secure
+                        outcomes.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a
+                            href="#projects"
+                            class="button button-dark"
+                        >
+                            Explore Projects
+                            <span>↗</span>
+                        </a>
+
+                        <a
+                            href="#about"
+                            class="text-link"
+                        >
+                            More about me
+                            <span>↓</span>
+                        </a>
+
+                    </div>
+
+                    <div class="hero-meta">
+
+                        <div>
+                            <strong>03</strong>
+                            <span>CORE AREAS</span>
+                        </div>
+
+                        <div>
+                            <strong>∞</strong>
+                            <span>CURIOSITY</span>
+                        </div>
+
+                        <div>
+                            <strong>01</strong>
+                            <span>PERSONAL SPACE</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Hero Visual -->
+
+                <div class="hero-visual">
+
+                    <div class="hero-grid-decoration"></div>
+
+                    <div class="visual-frame">
+
+                        <div class="visual-top">
+                            <span>AFIFAH / 2026</span>
+                            <span>01—03</span>
+                        </div>
+
+                        <div class="visual-center">
+
+                            <div class="portrait-placeholder">
+                                <span>AP</span>
+
+                                <div class="portrait-label">
+                                    PERSONAL<br>
+                                    SPACE
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="visual-bottom">
+
+                            <span>PROJECT MANAGEMENT</span>
+                            <span>DATA</span>
+                            <span>SECURITY</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="floating-card card-one">
+
+                        <span class="floating-number">
+                            01
+                        </span>
+
+                        <div>
+                            <strong>Projects</strong>
+                            <small>
+                                from idea to delivery
+                            </small>
+                        </div>
+
+                    </div>
+
+
+                    <div class="floating-card card-two">
+
+                        <span class="floating-number">
+                            02
+                        </span>
+
+                        <div>
+                            <strong>Data</strong>
+                            <small>
+                                insights over assumptions
+                            </small>
+                        </div>
+
+                    </div>
+
+
+                    <div class="floating-card card-three">
+
+                        <span class="floating-number">
+                            03
+                        </span>
+
+                        <div>
+                            <strong>Security</strong>
+                            <small>
+                                protect what matters
+                            </small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             MARQUEE
+        ================================================== -->
+
+        <section class="marquee-section">
+
+            <div class="marquee">
+
+                <div class="marquee-track">
+
+                    <span>PROJECT MANAGEMENT</span>
+                    <i>✦</i>
+
+                    <span>DATA & ANALYTICS</span>
+                    <i>✦</i>
+
+                    <span>CYBERSECURITY</span>
+                    <i>✦</i>
+
+                    <span>PROJECT MANAGEMENT</span>
+                    <i>✦</i>
+
+                    <span>DATA & ANALYTICS</span>
+                    <i>✦</i>
+
+                    <span>CYBERSECURITY</span>
+                    <i>✦</i>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             ABOUT
+        ================================================== -->
+
+        <section class="section about-section" id="about">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div class="section-index">
+                        01 / ABOUT
+                    </div>
+
+                    <div class="section-line"></div>
+
+                    <div class="section-small">
+                        A LITTLE ABOUT ME
+                    </div>
+
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-heading">
+
+                        <h2>
+                            Technology is not only
+                            about <em>building.</em>
+                        </h2>
+
+                    </div>
+
+
+                    <div class="about-content">
+
+                        <p class="about-lead">
+                            It's about understanding the problem,
+                            organizing the process, reading the data,
+                            and making sure the result is secure.
+                        </p>
+
+                        <p>
+                            I am Afifah Putri Islamiyah, an Informatics
+                            and Computer Engineering student with an
+                            interest in project management, data, and
+                            cybersecurity.
+                        </p>
+
+                        <p>
+                            I enjoy working on technology projects where
+                            technical implementation meets planning,
+                            analysis, and problem solving. For me,
+                            a successful project is not simply something
+                            that works — it should have a clear purpose,
+                            measurable results, and a responsible approach
+                            to security.
+                        </p>
+
+                        <a
+                            href="#contact"
+                            class="inline-arrow"
+                        >
+                            Let's build something meaningful
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-statement">
+
+                    <span>MY APPROACH</span>
+
+                    <h3>
+                        Understand.
+                        <em>Structure.</em>
+                        Analyze.
+                        <em>Secure.</em>
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             EXPERTISE
+        ================================================== -->
+
+        <section
+            class="section expertise-section"
+            id="expertise"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div class="section-index">
+                        02 / EXPERTISE
+                    </div>
+
+                    <div class="section-line"></div>
+
+                    <div class="section-small">
+                        WHAT I WORK WITH
+                    </div>
+
+                </div>
+
+
+                <div class="expertise-list">
+
+
+                    <!-- Expertise 01 -->
+
+                    <article class="expertise-item">
+
+                        <div class="expertise-number">
+                            01
+                        </div>
+
+                        <div class="expertise-main">
+
+                            <h3>
+                                Project
+                                <em>Management</em>
+                            </h3>
+
+                            <p>
+                                Planning, coordinating, and delivering
+                                technology projects from idea to
+                                implementation.
+                            </p>
+
+                            <div class="tag-list">
+
+                                <span>Project Planning</span>
+                                <span>Risk Management</span>
+                                <span>Team Coordination</span>
+                                <span>Documentation</span>
+                                <span>Agile Workflow</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="expertise-arrow">
+                            ↗
+                        </div>
+
+                    </article>
+
+
+                    <!-- Expertise 02 -->
+
+                    <article class="expertise-item">
+
+                        <div class="expertise-number">
+                            02
+                        </div>
+
+                        <div class="expertise-main">
+
+                            <h3>
+                                Data &
+                                <em>Analytics</em>
+                            </h3>
+
+                            <p>
+                                Turning raw information into insights
+                                that support better decisions and
+                                clearer strategies.
+                            </p>
+
+                            <div class="tag-list">
+
+                                <span>Data Analysis</span>
+                                <span>Data Visualization</span>
+                                <span>Database</span>
+                                <span>Reporting</span>
+                                <span>Data-driven Decisions</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="expertise-arrow">
+                            ↗
+                        </div>
+
+                    </article>
+
+
+                    <!-- Expertise 03 -->
+
+                    <article class="expertise-item">
+
+                        <div class="expertise-number">
+                            03
+                        </div>
+
+                        <div class="expertise-main">
+
+                            <h3>
+                                Cyber
+                                <em>Security</em>
+                            </h3>
+
+                            <p>
+                                Understanding systems from the perspective
+                                of security, risk, resilience, and
+                                responsible technology.
+                            </p>
+
+                            <div class="tag-list">
+
+                                <span>Security Assessment</span>
+                                <span>Network Security</span>
+                                <span>Web Security</span>
+                                <span>CTF</span>
+                                <span>Risk Analysis</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="expertise-arrow">
+                            ↗
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             PROJECTS
+        ================================================== -->
+
+        <section
+            class="section projects-section"
+            id="projects"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div class="section-index">
+                        03 / PROJECTS
+                    </div>
+
+                    <div class="section-line"></div>
+
+                    <div class="section-small">
+                        SELECTED WORK
+                    </div>
+
+                </div>
+
+
+                <div class="projects-intro">
+
+                    <h2>
+                        Selected projects,
+                        <em>problems solved.</em>
+                    </h2>
+
+                    <p>
+                        A collection of projects that represent my
+                        interests across technology, management,
+                        data, and security.
+                    </p>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <!-- Project 01 -->
+
+                    <article class="project-card project-large">
+
+                        <div class="project-visual project-visual-one">
+
+                            <div class="project-pattern">
+                                <span>SIDAK</span>
+                                <span>AI</span>
+                                <span>DATA</span>
+                            </div>
+
+                            <div class="project-visual-label">
+                                PROJECT / 01
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-meta">
+                                AI · DATA · RESEARCH
+                            </div>
+
+                            <h3>
+                                SIDAK
+                            </h3>
+
+                            <p>
+                                A multi-agent platform designed to
+                                validate sustainability claims against
+                                available evidence and supporting data.
+                            </p>
+
+                            <div class="project-role">
+
+                                <span>ROLE</span>
+
+                                <strong>
+                                    Project Lead / System Design
+                                </strong>
+
+                            </div>
+
+                            <a
+                                href="#contact"
+                                class="project-link"
+                            >
+                                View case study
+                                <span>↗</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 02 -->
+
+                    <article class="project-card">
+
+                        <div class="project-visual project-visual-two">
+
+                            <div class="security-grid">
+
+                                <span>01</span>
+                                <span>01</span>
+                                <span>00</span>
+                                <span>10</span>
+                                <span>01</span>
+                                <span>10</span>
+                                <span>00</span>
+                                <span>01</span>
+
+                            </div>
+
+                            <div class="project-visual-label">
+                                SECURITY / 02
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-meta">
+                                CYBERSECURITY · WEB
+                            </div>
+
+                            <h3>
+                                Backlink Spam
+                                Mitigation
+                            </h3>
+
+                            <p>
+                                A security research project focused
+                                on identifying and analyzing suspicious
+                                backlink patterns through crawling and
+                                automated analysis.
+                            </p>
+
+                            <div class="project-role">
+
+                                <span>FOCUS</span>
+
+                                <strong>
+                                    Research · Crawling · Analysis
+                                </strong>
+
+                            </div>
+
+                            <a
+                                href="#contact"
+                                class="project-link"
+                            >
+                                View case study
+                                <span>↗</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 03 -->
+
+                    <article class="project-card">
+
+                        <div class="project-visual project-visual-three">
+
+                            <div class="dashboard-preview">
+
+                                <div class="dashboard-bar"></div>
+
+                                <div class="dashboard-chart">
+
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+
+                                </div>
+
+                                <div class="dashboard-cards">
+
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+
+                                </div>
+
+                            </div>
+
+                            <div class="project-visual-label">
+                                DATA / 03
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-meta">
+                                DATA · VISUALIZATION
+                            </div>
+
+                            <h3>
+                                Data Analytics
+                                Dashboard
+                            </h3>
+
+                            <p>
+                                Transforming operational data into
+                                dashboards and actionable insights
+                                for clearer decision making.
+                            </p>
+
+                            <div class="project-role">
+
+                                <span>FOCUS</span>
+
+                                <strong>
+                                    Analysis · Visualization · Reporting
+                                </strong>
+
+                            </div>
+
+                            <a
+                                href="#contact"
+                                class="project-link"
+                            >
+                                View case study
+                                <span>↗</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             PROCESS
+        ================================================== -->
+
+        <section class="process-section">
+
+            <div class="container">
+
+                <div class="process-layout">
+
+                    <div class="process-heading">
+
+                        <span class="section-index">
+                            HOW I WORK
+                        </span>
+
+                        <h2>
+                            From
+                            <em>complexity</em>
+                            to clarity.
+                        </h2>
+
+                    </div>
+
+
+                    <div class="process-list">
+
+                        <div class="process-item">
+
+                            <span>01</span>
+
+                            <div>
+                                <h3>Understand</h3>
+
+                                <p>
+                                    Define the problem, objectives,
+                                    stakeholders, and constraints.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="process-item">
+
+                            <span>02</span>
+
+                            <div>
+                                <h3>Structure</h3>
+
+                                <p>
+                                    Break complex goals into manageable
+                                    tasks, priorities, and milestones.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="process-item">
+
+                            <span>03</span>
+
+                            <div>
+                                <h3>Analyze</h3>
+
+                                <p>
+                                    Use data and evidence to understand
+                                    what is actually happening.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="process-item">
+
+                            <span>04</span>
+
+                            <div>
+                                <h3>Secure</h3>
+
+                                <p>
+                                    Consider risks, vulnerabilities,
+                                    privacy, and resilience throughout
+                                    the process.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             EXPERIENCE
+        ================================================== -->
+
+        <section
+            class="section experience-section"
+            id="experience"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div class="section-index">
+                        04 / EXPERIENCE
+                    </div>
+
+                    <div class="section-line"></div>
+
+                    <div class="section-small">
+                        MY JOURNEY
+                    </div>
+
+                </div>
+
+
+                <div class="experience-grid">
+
+                    <div class="experience-intro">
+
+                        <h2>
+                            Building experience
+                            <em>one project at a time.</em>
+                        </h2>
+
+                        <p>
+                            My journey continues through academic projects,
+                            technical exploration, research, and collaborative
+                            work.
+                        </p>
+
+                    </div>
+
+
+                    <div class="timeline">
+
+                        <article class="timeline-item">
+
+                            <div class="timeline-date">
+                                2023 — PRESENT
+                            </div>
+
+                            <div class="timeline-marker"></div>
+
+                            <div class="timeline-content">
+
+                                <h3>
+                                    D4 Informatics &
+                                    Computer Engineering
+                                </h3>
+
+                                <span>
+                                    Politeknik Negeri Ujung Pandang
+                                </span>
+
+                                <p>
+                                    Developing a strong foundation across
+                                    software engineering, information systems,
+                                    networks, data, and technology projects.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+                        <article class="timeline-item">
+
+                            <div class="timeline-date">
+                                PROJECT WORK
+                            </div>
+
+                            <div class="timeline-marker"></div>
+
+                            <div class="timeline-content">
+
+                                <h3>
+                                    Technology Projects
+                                </h3>
+
+                                <span>
+                                    Project Management · Development · Research
+                                </span>
+
+                                <p>
+                                    Working on technology projects that combine
+                                    technical implementation with planning,
+                                    analysis, documentation, and problem solving.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+                        <article class="timeline-item">
+
+                            <div class="timeline-date">
+                                CONTINUOUS
+                            </div>
+
+                            <div class="timeline-marker"></div>
+
+                            <div class="timeline-content">
+
+                                <h3>
+                                    Learning & Exploration
+                                </h3>
+
+                                <span>
+                                    Data · Security · Technology
+                                </span>
+
+                                <p>
+                                    Continuously exploring new approaches,
+                                    tools, security practices, and ways to
+                                    make technology projects more effective.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             EDUCATION / PERSONAL SPACE
+        ================================================== -->
+
+        <section class="education-section">
+
+            <div class="container">
+
+                <div class="education-card">
+
+                    <div class="education-label">
+                        CURRENTLY
+                    </div>
+
+                    <div class="education-main">
+
+                        <span class="education-year">
+                            2023 — PRESENT
+                        </span>
+
+                        <h2>
+                            D4 Informatics &
+                            <em>Computer Engineering</em>
+                        </h2>
+
+                        <p>
+                            Politeknik Negeri Ujung Pandang
+                        </p>
+
+                    </div>
+
+                    <div class="education-side">
+
+                        <span>
+                            STUDYING
+                        </span>
+
+                        <strong>
+                            TECHNOLOGY
+                        </strong>
+
+                        <strong>
+                            DATA
+                        </strong>
+
+                        <strong>
+                            SECURITY
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CONTACT
+        ================================================== -->
+
+        <section
+            class="section contact-section"
+            id="contact"
+        >
+
+            <div class="container">
+
+                <div class="contact-top">
+
+                    <span class="section-index">
+                        05 / CONTACT
+                    </span>
+
+                    <span>
+                        HAVE A PROJECT IN MIND?
+                    </span>
+
+                </div>
+
+
+                <div class="contact-content">
+
+                    <h2>
+                        Let's turn an idea into
+                        <em>something real.</em>
+                    </h2>
+
+                    <p>
+                        Whether it's a technology project, data challenge,
+                        security research, or simply an interesting idea,
+                        I'd love to hear about it.
+                    </p>
 
                     <a
-                        href="#"
-                        target="_blank"
+                        href="mailto:your@email.com"
+                        class="contact-email"
                     >
-                        Instagram
+                        your@email.com
+                        <span>↗</span>
                     </a>
 
-                    <a
-                        href="#"
-                        target="_blank"
-                    >
-                        LinkedIn
-                    </a>
+                </div>
+
+
+                <div class="contact-bottom">
+
+                    <div class="social-links">
+
+                        <a
+                            href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LinkedIn ↗
+                        </a>
+
+                        <a
+                            href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub ↗
+                        </a>
+
+                        <a
+                            href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Instagram ↗
+                        </a>
+
+                    </div>
 
                     <a
-                        href="#"
+                        href="assets/cv/Afifah-Putri-Islamiyah-CV.pdf"
+                        class="cv-link"
                         target="_blank"
                     >
-                        GitHub
+                        View CV ↗
                     </a>
 
                 </div>
 
             </div>
 
+        </section>
 
-            <div class="contact-location">
+    </main>
 
-                Indonesia
-                <br>
-                Available worldwide.
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <div class="footer-brand">
+
+                <span class="brand-mark">
+                    AP
+                </span>
+
+                <div>
+                    <strong>
+                        Afifah Putri Islamiyah
+                    </strong>
+
+                    <span>
+                        Personal Space
+                    </span>
+                </div>
+
+            </div>
+
+
+            <div class="footer-center">
+
+                <span>
+                    PROJECT MANAGEMENT
+                </span>
+
+                <span>
+                    DATA
+                </span>
+
+                <span>
+                    CYBERSECURITY
+                </span>
+
+            </div>
+
+
+            <div class="footer-right">
+
+                <span>
+                    © 2026
+                </span>
+
+                <a href="#home">
+                    Back to top ↑
+                </a>
 
             </div>
 
         </div>
 
-    </div>
-
-</section>
-
-</main>
+    </footer>
 
 
-
-<!-- =====================================================
-     FOOTER
-===================================================== -->
-
-<footer class="footer">
-
-    <div class="container footer-inner">
-
-        <span>
-            © 2026 Afifah Putri Islamiyah
-        </span>
-
-        <span>
-            Designed & built with care.
-        </span>
-
-        <a href="#home">
-            Back to top ↑
-        </a>
-
-    </div>
-
-</footer>
-
-
-
-<script src="js/main.js"></script>
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
 
 </body>
-
 </html>
